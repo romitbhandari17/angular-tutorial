@@ -1,0 +1,8 @@
+<table class="fixed_header" style="width:30%;">
+    <tr *ngFor="let user of users" style="cursor:pointer">
+        <td style="padding:10px" (click)="goToDetails(user.id)">{{user.name}}</td>
+        <td style="padding:10px" (click)="goToEdit(user.id)">Edit</td>
+    </tr>
+</table>
+<button (click)="goToCreateUser()">Create User</button>
+    

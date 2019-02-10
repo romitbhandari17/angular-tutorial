@@ -6,6 +6,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Angular Concepts covered in this project
+Data Binding<br>
+Pipes<br>
+@Input - Data flow from parent to child<br>
+@Output- Data flow from child to parent<br>
+*ngIf, *ngFor, *ngSwitch directives<br>
+Routing<br>
+Reactive Forms-Create/Edit<br>
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
